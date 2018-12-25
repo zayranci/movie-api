@@ -1,9 +1,4 @@
-[![Build status](https://api.travis-ci.org/meseven/node-egitimi-movie-api.svg)](https://travis-ci.org/meseven/node-egitimi-movie-api)
 
-# node-egitimi-movie-api
-Udemy üzerinde yayınlanan ["Sıfırdan Her Yönüyle Node.JS"](https://www.udemy.com/nodejs-egitimi/?couponCode=NDJS49MS) adlı eğitim setinde "Express ve MongoDB ile Restful API Geliştirme Projesi" bölümünde kullanılan repodur.
-
-![nodejs dersleri](https://mehmetseven.net/content/images/2017/12/nodejs-mehmet-seven.jpg)
 
 # Movies
 
