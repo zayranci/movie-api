@@ -7,7 +7,19 @@ const Movie = require('../models/Movie');
 
 //Tüm Filmleri listeleyen endpoint
 router.get('/',(req,res)=>{
-    const promise =Movie.find({});
+    const promise =Movie.aggregate([
+        {
+            $lookup: {
+                from:'directors',
+                localField:'director_id',
+                foreignField:'_id',
+                as:'director'
+            }
+        },
+        {
+            $unwind:'$director'
+        }
+    ]);
     promise.then((data)=>{
         res.json(data);
     }).catch((err)=>{
@@ -31,7 +43,7 @@ router.get('/:movie_id',(req,res,next)=>{
     const promise = Movie.findById(req.params.movie_id);
     promise.then((movie)=>{
         if(!movie)
-            next({message: 'The film was not found.', code:999});
+            next({message: 'The movie was not found.', code:999});
 
         res.json(movie);
     }).catch((err)=>{
@@ -50,7 +62,7 @@ router.put('/:movie_id',(req,res,next)=>{
 
     promise.then((movie)=>{
         if(!movie)
-            next({message: 'The film was not found.', code:999});
+            next({message: 'The movie was not found.', code:999});
 
         res.json({status: 1});
     }).catch((err)=>{
@@ -62,7 +74,7 @@ router.delete('/:movie_id',(req,res,next)=>{
     const promise = Movie.findByIdAndRemove(req.params.movie_id);
     promise.then((movie)=>{
         if(!movie)
-            next({message: 'The film was not found.', code:999});
+            next({message: 'The movie was not found.', code:999});
 
         res.json({status: 1});
     }).catch((err)=>{
