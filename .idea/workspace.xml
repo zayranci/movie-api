@@ -39,8 +39,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/api/movie.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="196">
+              <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+              <folding>
+                <element signature="e#227#373#0" />
+                <element signature="e#380#412#0" />
+                <element signature="e#504#877#0" />
+                <element signature="e#917#933#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,12 +221,12 @@
       <workItem from="1545911813400" duration="5101000" />
       <workItem from="1548591805306" duration="4381000" />
       <workItem from="1548675625699" duration="6197000" />
-      <workItem from="1548757270940" duration="9916000" />
+      <workItem from="1548757270940" duration="10772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40303000" />
+    <option name="totallyTimeSpent" value="41159000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,9 +238,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="704" y="0" width="844" height="836" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.13152677" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.24659231" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.24659231" />
       <window_info id="Favorites" order="2" sideWeight="0.50086355" side_tool="true" weight="0.24659231" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,7 +252,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4993804" visible="true" weight="0.4036827" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4993804" visible="true" weight="0.453125" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006196" side_tool="true" weight="0.17755681" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,8 +381,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/api/movie.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="196">
+          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+          <folding>
+            <element signature="e#227#373#0" />
+            <element signature="e#380#412#0" />
+            <element signature="e#504#877#0" />
+            <element signature="e#917#933#0" />
+          </folding>
         </state>
       </provider>
     </entry>
