@@ -80,7 +80,7 @@ describe('/api/movie tests', ()=>{
                 });
         });
     });
-/*
+
     describe('/PUT/:movie_id movie', () => {
         it('it should UPDATE a movie given by id', (done) => {
             const movie = {
@@ -99,6 +99,7 @@ describe('/api/movie tests', ()=>{
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('object');
+
                     res.body.should.have.property('title').eql(movie.title);
                     res.body.should.have.property('director_id').eql(movie.director_id);
                     res.body.should.have.property('category').eql(movie.category);
@@ -111,21 +112,21 @@ describe('/api/movie tests', ()=>{
                 });
         });
     });
-    */
 
-    describe('/DELETE/:movie_id movie', () => {
-        it('it should DELETE a movie given by id', (done) => {
 
-            chai.request(server)
-                .delete('/api/movies/' + movieId)
-                .set('x-access-token', token)
-                .end((err, res) => {
-                    res.should.have.status(200);
-                    res.body.should.be.a('object');
-                    res.body.should.have.property('status').eql(1);
-                    done();
-                });
-        });
-    });
+	describe('/DELETE/:movie_id movie', () => {
+		it('it should DELETE a movie given by id', (done) => {
+
+			chai.request(server)
+				.delete('/api/movies/' + movieId)
+				.set('x-access-token', token)
+				.end((err, res) => {
+					res.should.have.status(200);
+					res.body.should.be.a('object');
+					res.body.should.have.property('status').eql(1);
+					done();
+				});
+		});
+	});
 
 });
