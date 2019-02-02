@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="646b9b34-a0be-42b5-9f4b-42e2b1061b73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/director.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/director.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/director.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/director.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/index.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/movie.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/api/movie.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="646b9b34-a0be-42b5-9f4b-42e2b1061b73" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,7 +15,17 @@
     <favorites_list name="movie-api" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/api/director.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="852">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,7 +198,7 @@
       <workItem from="1548777200384" duration="150000" />
       <workItem from="1548786772064" duration="3266000" />
       <workItem from="1549120523290" duration="38000" />
-      <workItem from="1549120764006" duration="4614000" />
+      <workItem from="1549120764006" duration="5123000" />
     </task>
     <servers />
   </component>
@@ -205,7 +208,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56571000" />
+    <option name="totallyTimeSpent" value="57080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +222,7 @@
   <component name="ToolWindowManager">
     <frame x="722" y="8" width="816" height="796" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" weight="0.23329425" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.23234917" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.24659231" />
       <window_info id="Favorites" order="2" sideWeight="0.50086355" side_tool="true" weight="0.24659231" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4993804" visible="true" weight="0.045180723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4993804" visible="true" weight="0.5316265" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006196" side_tool="true" weight="0.17755681" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/api/director.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="852">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>

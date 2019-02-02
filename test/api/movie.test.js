@@ -112,6 +112,10 @@ describe('/api/movie tests', ()=>{
                 });
         });
     });
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 34a41a40288aaaf718b5f7d78a0582fceab6ea5e
 
 
 	describe('/DELETE/:movie_id movie', () => {
